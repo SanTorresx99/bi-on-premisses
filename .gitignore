@@ -1,0 +1,43 @@
+# 🐍 Arquivos de ambiente virtual
+venv/
+.env
+*.env
+.env.*
+
+# 💾 Arquivos do sistema
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# 🧪 Arquivos de testes temporários
+*.sqlite3
+*.db
+*.bak
+*.fbk
+*.fdb
+
+# 🔧 Ferramentas locais
+.DS_Store
+Thumbs.db
+
+# 📊 Dados exportados temporários
+*.csv
+*.xlsx
+*.xls
+*.json
+*.pdf
+
+# 🐳 Docker e IDEs
+docker-compose.override.yml
+.idea/
+.vscode/
+*.code-workspace
+
+# 📂 Cache de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 🔍 Cache do Jupyter (caso use futuramente)
+.ipynb_checkpoints/
